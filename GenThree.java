@@ -7,33 +7,18 @@ public class GenThree {
 		int a = Integer.parseInt(args[0]);	
 		int b = Integer.parseInt(args[1]);
 
-
-		int c = Integer.parseInt(args[2]);
-		int d = Integer.parseInt(args[3]);
-		int e = Integer.parseInt(args[4]);
-
-       // int x = Math.min ()
-	   if ((c < a) | (d < a) | (e < a))
-	   
-	   { 
-		System.out.println("mistake");
-		System. exit(0);
-
-	   }
-	  if ((b < c) | (b < d) | (b < e))
-      {
-		System.out.println("cant");
-		System. exit(0);
+    int range = b-a;
+	for (int x = 0; x<3; x++){
+	int rand = (int)(Math.random() * range + a);
+	System.out.println(rand);
+	
 	}
 
-     int small =Math.min(c, d);
-	 int smallest = Math.min(small,e);
-	 System.out.println(smallest);
 
-	 System.out.println(c);
-	 System.out.println(d);
-	 System.out.println(e);
-	 System.out.println("The minimal generated number was " + smallest);
+	
+	   
+	  
+	
 
 	}	
 	
