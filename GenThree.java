@@ -4,10 +4,10 @@
  */
 public class GenThree {
 	public static void main(String[] args) {
-		int a = Integer.parseInt(args[0]);	
-		int b = Integer.parseInt(args[1]);
+		int min = Integer.parseInt(args[0]);	
+		int max = Integer.parseInt(args[1]);
 
-    int range = b-a;
+    int range = max-min;
 	
 	int rand = (int)((Math.random() * range) + a);
 	int rand1 = (int)((Math.random() * range) + a);
