@@ -9,9 +9,9 @@ public class GenThree {
 
     int range = max-min;
 	
-	int rand = (int)((Math.random() * range) + a);
-	int rand1 = (int)((Math.random() * range) + a);
-	int rand2 = (int)((Math.random() * range) + a);
+	int rand = (int)((Math.random() * range) + min);
+	int rand1 = (int)((Math.random() * range) + min);
+	int rand2 = (int)((Math.random() * range) + min);
 	System.out.println(rand);
 	System.out.println(rand1);
 	System.out.println(rand2);
