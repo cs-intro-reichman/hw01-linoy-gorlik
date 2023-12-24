@@ -11,7 +11,6 @@ public class LinearEq {
 	double d = Integer.parseInt(args[2]);
 	double f = d - c;
 	double x = f / a;
-	System.out.println("% Java LinearEq" + " " + a + " " + d + " "+ c);
 	System.out.println(a + " " + "*" + " " + "x" + " " + "+" + " " + c + " " + "=" + " " + d);
 	System.out.println("x" + " " + "=" + " " + x);
 	}
